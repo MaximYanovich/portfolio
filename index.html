@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Максим Четвергов — Портфолио</title>
+  <meta name="description" content="Портфолио: адаптивные лендинги (HTML/CSS), дизайн баннеров и карточек товаров, AI-визуал, сайты на Flexbe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="На главную">
+        <span class="logo__mark">MC</span>
+        <span class="logo__text">Максим Четвергов</span>
+      </a>
+
+      <nav class="menu" aria-label="Навигация">
+        <a href="#cases">Кейсы</a>
+        <a href="#services">Услуги</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <a class="btn btn--ghost" href="#contact">Связаться</a>
+    </div>
+
+    <div class="container hero">
+      <div class="hero__text">
+        <div class="badge">Frontend • Дизайн • Маркетплейсы</div>
+        <h1>Делаю <span class="mark">лендинги</span> и <span class="mark">карточки товаров</span>, которые выглядят дорого</h1>
+        <p>
+          Верстка по Figma (HTML/CSS, адаптив), дизайн баннеров и карточек для WB/Ozon,
+          AI-визуал, простые сайты и правки на Flexbe.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn" href="#cases">Смотреть кейсы</a>
+          <a class="btn btn--ghost" href="https://t.me/yanovich" target="_blank" rel="noopener">Написать в Telegram</a>
+        </div>
+
+        <div class="chips" aria-label="Навыки">
+          <span>HTML/CSS</span>
+          <span>Адаптив</span>
+          <span>Figma</span>
+          <span>WB/Ozon</span>
+          <span>AI-визуал</span>
+          <span>Flexbe</span>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="panel">
+          <div class="panel__title">Быстрый старт</div>
+          <div class="panel__desc">Обычно хватает 1–2 уточнений, чтобы начать работу</div>
+
+          <div class="kpi">
+            <div class="kpi__item">
+              <b>1–3</b>
+              <span>дня</span>
+            </div>
+            <div class="kpi__item">
+              <b>Mobile</b>
+              <span>first</span>
+            </div>
+            <div class="kpi__item">
+              <b>Чисто</b>
+              <span>и аккуратно</span>
+            </div>
+          </div>
+
+          <a class="btn btn--small" href="#contact">Запросить расчет</a>
+
+          <p class="panel__fineprint">
+            ⚠️ Сайт-портфолио. Формы не отправляют данные — по запросу подключу отправку в TG/почту.
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="cases">
+      <div class="container">
+        <div class="headrow">
+          <h2>Кейсы</h2>
+          <span class="muted">3 направления: верстка • дизайн • визуал</span>
+        </div>
+
+        <div class="grid3">
+          <article class="card card--case">
+            <div class="card__top">
+              <div class="icon">⌁</div>
+              <div>
+                <h3>Адаптивная верстка лендинга по макету Figma</h3>
+                <p class="muted">HTML/CSS • семантика • аккуратные отступы</p>
+              </div>
+            </div>
+
+            <div class="card__actions">
+              <a class="link" href="#" data-toast="Поставь сюда ссылку на демо (GitHub Pages) или на страницу проекта.">Открыть демо →</a>
+              <span class="pill">Frontend</span>
+            </div>
+          </article>
+
+          <article class="card card--case">
+            <div class="card__top">
+              <div class="icon">✦</div>
+              <div>
+                <h3>PERMEGI — концепт карточек товара и промо-баннеров</h3>
+                <p class="muted">Композиция • типографика • промо-блоки</p>
+              </div>
+            </div>
+
+            <div class="thumbs">
+              <button class="thumb" data-lightbox="assets/permegi_purple_yellow.png" aria-label="Открыть вариант 1">
+                <img src="assets/permegi_purple_yellow.png" alt="PERMEGI — вариант баннера 1" loading="lazy">
+              </button>
+              <button class="thumb" data-lightbox="assets/permegi_lavender.png" aria-label="Открыть вариант 2">
+                <img src="assets/permegi_lavender.png" alt="PERMEGI — вариант баннера 2" loading="lazy">
+              </button>
+              <button class="thumb" data-lightbox="assets/permegi_black_gold.png" aria-label="Открыть вариант 3">
+                <img src="assets/permegi_black_gold.png" alt="PERMEGI — вариант баннера 3" loading="lazy">
+              </button>
+            </div>
+
+            <div class="card__actions">
+              <span class="pill pill--alt">Дизайн</span>
+              <a class="link" href="#" data-toast="Если захочешь — добавим описание задачи/цели и результаты (CTR/конверсия).">Описание →</a>
+            </div>
+          </article>
+
+          <article class="card card--case">
+            <div class="card__top">
+              <div class="icon">⚡</div>
+              <div>
+                <h3>Реальный проект (клиентский)</h3>
+                <p class="muted">Сайт/лендинг • правки • публикация</p>
+              </div>
+            </div>
+
+            <div class="list">
+              <div class="list__row"><b>Формат:</b> Flexbe / HTML</div>
+              <div class="list__row"><b>Что делал:</b> верстка, адаптив, сборка блоков</div>
+              <div class="list__row"><b>Статус:</b> ссылка в закрепе (добавь сюда)</div>
+            </div>
+
+            <div class="card__actions">
+              <a class="link" href="#" data-toast="Вставь сюда ссылку на проект из закрепа (или скриншоты, если NDA).">Ссылка →</a>
+              <span class="pill">Коммерция</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          <h3>Хочешь “как у сильных портфолио”?</h3>
+          <p class="muted">
+            В следующем шаге добавим: отдельные страницы кейсов, отзывы, PDF-презентацию и блок “пакеты услуг”.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="services">
+      <div class="container">
+        <h2>Услуги</h2>
+
+        <div class="grid3">
+          <article class="card">
+            <div class="icon">⌂</div>
+            <h3>Лендинг по макету</h3>
+            <p>Адаптивная верстка HTML/CSS. Чистая структура и готовность под интеграции.</p>
+            <div class="meta"><span>1 страница</span><span>1–3 дня</span></div>
+          </article>
+
+          <article class="card">
+            <div class="icon">▦</div>
+            <h3>Дизайн для WB/Ozon</h3>
+            <p>Карточки товаров, баннеры, обложки. Акценты на кликабельность и читаемость.</p>
+            <div class="meta"><span>серия</span><span>быстро</span></div>
+          </article>
+
+          <article class="card">
+            <div class="icon">⟡</div>
+            <h3>AI‑визуал товара</h3>
+            <p>Реалистичные сцены, фоны и “фотосессии” без студии. Под карточки и рекламу.</p>
+            <div class="meta"><span>по ТЗ</span><span>1–2 дня</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <h2>Обо мне</h2>
+          <p class="muted">
+            Я — Максим Четвергов. Делаю аккуратную верстку и дизайн, который выглядит современно и не “кричит”.
+            Люблю порядок в макете и коде: сетка, типографика, отступы, адаптив.
+          </p>
+
+          <div class="bullets">
+            <div class="bullet"><b>Сроки</b><span>держу договоренности</span></div>
+            <div class="bullet"><b>Коммуникация</b><span>коротко и по делу</span></div>
+            <div class="bullet"><b>Результат</b><span>сдаю в понятном виде</span></div>
+          </div>
+        </div>
+
+        <div class="note">
+          <h3>Чем могу помочь быстро</h3>
+          <ul>
+            <li>сверстать простой лендинг по ТЗ</li>
+            <li>доработать верстку / адаптив</li>
+            <li>сделать карточки товаров и промо-баннеры</li>
+            <li>собрать страницу на Flexbe и навести порядок</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="contact">
+      <div class="container cta">
+        <h2>Связаться</h2>
+        <p class="muted">Быстрее всего отвечаю в Telegram.</p>
+
+        <div class="contact">
+          <a class="btn" href="https://t.me/yanovich" target="_blank" rel="noopener">Telegram: @yanovich</a>
+          <button class="btn btn--ghost" id="copyTg" type="button">Скопировать ник</button>
+        </div>
+
+        <form class="form" id="demoForm">
+          <input type="text" placeholder="Имя" required>
+          <input type="text" placeholder="Задача (кратко)" required>
+          <button class="btn" type="submit">Отправить (демо)</button>
+        </form>
+
+        <small>Форма демо — по запросу подключу отправку в Telegram / почту.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <span>© 2026 Максим Четвергов</span>
+      <a class="muted" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" type="button" aria-label="Закрыть">×</button>
+    <img class="lightbox__img" alt="Просмотр изображения">
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
